@@ -1,6 +1,10 @@
 @VoiceAiChatApi_HostAddress = http://localhost:5098
 
-GET {{VoiceAiChatApi_HostAddress}}/weatherforecast/
-Accept: application/json
+POST {{VoiceAiChatApi_HostAddress}}/api/chat
+Content-Type: application/json
+
+{
+  "message": "Merhaba"
+}
 
 ###
